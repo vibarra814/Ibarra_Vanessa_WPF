@@ -1,7 +1,9 @@
-//Defining Variables
+//Variables of Different Types. Numbers, Booleans and Strings
 
-var age; //declaration
-age = 24; //definition
-//storage container = value
+var age = 24; //Number variable 
 
-var yearOfBirth = 1989; //declaring and defining on the same line
+var isStudent = true; //Boolean Variable
+
+var firstName = "Vanessa";
+
+var phrase = 'I don\'t know \n you\'ll have to speak with the professor';
