@@ -1,9 +1,8 @@
 // Vanessa Ibarra 2/12/2014 expression worksheet
 
 
-var slices = 8; //number of slices per pizza
-var people = 4; //number of people at party
-var pizzas = 2; //number of pizzas
-var remainder = 16 % 16; //leftover after everyone gets there share
-console.log(remainder); // printed onto console
+var shoppingTrips = [100, 200, 150, 250, 125];//array of shopping trip toals
+var total = 100 +200 + 150 + 250 +125;// total of all trips
 
+var average = (total)/5; //equation to figure average
+console.log(average);// printing to console
