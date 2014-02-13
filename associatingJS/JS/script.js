@@ -1,8 +1,10 @@
 // Vanessa Ibarra 2/12/2014 expression worksheet
 
 
-var shoppingTrips = [100, 200, 150, 250, 125];//array of shopping trip toals
-var total = 100 +200 + 150 + 250 +125;// total of all trips
-
-var average = (total)/5; //equation to figure average
-console.log(average);// printing to console
+var priceTotal = 100.00; //original price
+var discount = 25; //discount amount
+var priceTax = priceTotal + 10; //tax amount
+ 
+var resultTax = priceTax - discount;// total with tax and discount
+var result = priceTotal - discount;// total with only discount
+console.log(result, resultTax); //printing both totals in console
