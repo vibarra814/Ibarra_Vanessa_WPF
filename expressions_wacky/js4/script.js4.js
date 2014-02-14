@@ -6,7 +6,7 @@ var calToday = prompt("Please enter number of calories you consumed today"); // 
 
 var calBurned = prompt("please enter calories burned today"); // added prompt to input number of calories burned
  
-var cheatCal = "The amount of daily cheat calories you have today are" + " " + Number(calPerday) - Number(calToday);
+var cheatCal = "The amount of daily cheat calories you have today are" + " " + Number(calPerday) - Number(calToday); //added equation to figure out amount of cheat calories left
  
 cheatCal += calBurned;
 
