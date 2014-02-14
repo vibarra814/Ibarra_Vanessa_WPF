@@ -15,3 +15,9 @@ var resolutionHeight = prompt("please enter your computer screens resolution hei
  var inchesHeightresult = "your images height in inches is" + " " + resolutionHeight / pixelHeight2;
   
   alert (inchesHeightresult);
+
+  var pixelWidth2 = prompt("Now please enter your images pixel width again");
+  var resolutionWidth = prompt("please enter your computer screens resolution width");
+  var inchesWidthresult = "your images width in inches is" + " " + resolutionWidth / pixelWidth2;
+
+  alert (inchesWidthresult);
