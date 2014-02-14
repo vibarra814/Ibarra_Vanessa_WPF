@@ -23,4 +23,4 @@ var resolutionHeight = prompt("please enter your computer screens resolution hei
   alert (inchesWidthresult);
 
   var sqinches = "so your area in inches is" + " " + inchesWidthresult * inchesHeightresult;
-  
+   alert (sqinches;)
