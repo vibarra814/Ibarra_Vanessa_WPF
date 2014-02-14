@@ -8,5 +8,6 @@ var extras = prompt("please enter any extra earnings");
 
 var result = weekly * yearly + extras;
 
-alert("your annual income is" + result);
+var answer = "Your annual income is" + result;
+alert (result);
 
