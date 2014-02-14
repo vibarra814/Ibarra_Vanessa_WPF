@@ -5,7 +5,7 @@ var pixelHeight = prompt(" I am calculating your images are in pixels. Please en
 
 var pixelWidth = prompt("please enter your images pixel width");
 
-var pixelresult = "your pixel area is" + " " + pixelHeight * pixelWidth;
+var pixelresult = "your are in pixels is" + " " + pixelHeight * pixelWidth;
  
 alert (pixelresult);
 
@@ -13,6 +13,6 @@ var inchesHeight = prompt(" Now we will find the area in inches. Please enter yo
  
  var inchesWidth = prompt("please enter your images width in inches");
 
- var inchesresult = "your inches area is" + " " + inchesWidth * inchesHeight;
+ var inchesresult = "your area in inches is" + " " + inchesWidth * inchesHeight;
 
  alert (inchesresult);
