@@ -5,5 +5,6 @@ var pixelHeight = prompt("please enter your images pixel height");
 
 var pixelWidth = prompt("please enter your images pixel width");
 
-var pixelresult = pixelHeight * pixelWidth;
- console.log(pixelresult);
+var pixelresult = "your pixel area is" + pixelHeight * pixelWidth;
+ 
+alert (pixelresult);
