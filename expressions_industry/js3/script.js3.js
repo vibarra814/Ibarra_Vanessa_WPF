@@ -1,7 +1,7 @@
 //Vanessa Ibarra 2/3/2014 expressions calculating pixel/inches of an image
 
 
-var pixelHeight = prompt("please enter your images pixel height");
+var pixelHeight = prompt(" I am calculating your images are in pixels. /n please enter your images pixel height");
 
 var pixelWidth = prompt("please enter your images pixel width");
 
