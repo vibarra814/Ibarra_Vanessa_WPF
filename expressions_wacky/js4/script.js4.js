@@ -10,4 +10,4 @@ var cheatCal = "The amount of daily cheat calories you have today are" + " " + N
  
 cheatCal += calBurned; //added equation to figure cheat calories plus calories burned
 
- console.log(cheatCal);
+ console.log(cheatCal); // added the answer for total calories left to console (did not work) 
