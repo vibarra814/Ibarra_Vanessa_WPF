@@ -9,10 +9,8 @@ var pixelresult = "your are in pixels is" + " " + pixelHeight * pixelWidth;
  
 alert (pixelresult);
 
-var inchesHeight = prompt(" Now we will find the area in inches. Please enter your images height in inches");
+var pixelHeight2 = prompt("Now we will calculate the area in inches. Please enter your pixel height again.");
+var resolutionHeight = prompt("please enter your computer screens resolution height");
  
- var inchesWidth = prompt("please enter your images width in inches");
-
- var inchesresult = "your area in inches is" + " " + inchesWidth * inchesHeight;
-
- alert (inchesresult);
+  inchesHeightresult = "your images height in inches is" + " " + Number"pixelHeight2" / Number"resolutionHeight";
+  alert (inchesHeightresult);
