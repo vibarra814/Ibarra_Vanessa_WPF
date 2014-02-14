@@ -5,4 +5,5 @@ var pixelHeight = prompt("please enter your images pixel height");
 
 var pixelWidth = prompt("please enter your images pixel width");
 
-var pixelresult = pixelHeight * pixelWidth
+var pixelresult = pixelHeight * pixelWidth;
+ console.log(pixelresult);
