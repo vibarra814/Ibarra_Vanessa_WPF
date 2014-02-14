@@ -8,6 +8,6 @@ var extras = prompt("please enter any extra earnings"); // added prompt to add e
 
 var result = weekly * yearly + Number(extras); // added proper equation to determine yearly income
 
-var answer = "Your annual income is" + " " +result.;// added what will appear in alert
+var answer = "Your annual income is" + " " +result;// added what will appear in alert
 alert (answer); //made alert to show the answer in a full sentence
 
