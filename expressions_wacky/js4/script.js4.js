@@ -8,6 +8,6 @@ var calBurned = prompt("please enter calories burned today"); // added prompt to
  
 var cheatCal = "The amount of daily cheat calories you have today are" + " " + Number(calPerday) - Number(calToday); //added equation to figure out amount of cheat calories left (possible mistake in this line)
  
-cheatCal += Number(calBurned); //added equation to figure cheat calories plus calories burned
+cheatCal += Number(calBurned); //added equation to figure cheat calories plus calories burned (possible mistake in this line)
 
  console.log(cheatCal); // added the answer for total calories left to console (did not work) 
