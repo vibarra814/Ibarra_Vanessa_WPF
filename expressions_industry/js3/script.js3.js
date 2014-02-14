@@ -21,3 +21,6 @@ var resolutionHeight = prompt("please enter your computer screens resolution hei
   var inchesWidthresult = "your images width in inches is" + " " + resolutionWidth / pixelWidth2;
 
   alert (inchesWidthresult);
+
+  var sqinches = "so your area in inches is" + " " + inchesWidthresult * inchesHeightresult;
+  
