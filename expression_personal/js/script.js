@@ -7,3 +7,5 @@ var monthly = weekly * 4;
 
 var result = monthly * 12;
 
+console.log(result);
+
