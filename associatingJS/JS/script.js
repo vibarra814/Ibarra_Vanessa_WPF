@@ -1,9 +1,12 @@
 //conditional logic
 
-var kidHeight = 47;
+var kidHeight = 48;
 var minHeight = 48;
-var sneakerLift =2;
 
-if(kidHeight + sneakerLift > minHeight){
-	console.log("you can ride the coaster!")
+
+if(kidHeight  > minHeight){
+	console.log("you can ride the coaster!");
+}
+if(kidHeight <= minHeight){
+	console.log("sorry you've got some growing to do first!");
 }
