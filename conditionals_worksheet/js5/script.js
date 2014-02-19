@@ -1,13 +1,12 @@
 // vanessa Ibarra 2/18/2014 activity conditionals worksheet
-// check the login 
+// movie ticket price
 
-var userName = prompt("please enter your user name");
- 
-if (userName === "pollywoggle"){
-	var passWord = prompt("please enter password");
-}else {alert ("you have entered an invalid username");
+var movieTime = 11
+var age = 30
+
+if (movieTime = 3, 4, 5 || age <= 10 || age >=55){
+
+	console.log("your price is $7.00");
+}else {
+	console.log("your price is $12.00");
 }
-
-if (passWord === "giggle"){
-	console.log("welcome!");
-}else prompt("you have entered an invalid password");
