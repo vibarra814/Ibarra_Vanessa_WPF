@@ -1,12 +1,7 @@
-//conditional logic - operators
+//conditional logic - ternary operators
 
-var budget = 100;
-var iPhonePrice = 199.99;
-var wonLottery = true ;
-
-// if the price of our phone is less than our budget AND if our paycheck is over 300
-if(iPhonePrice < budget || wonLottery ){ 
-	console.log("we can buy the phone");
-}else {
-	console.log("no phone for you!"); 
-}
+var age = 6;
+var book;
+//if the child is under 10, they get green eggs and ham, otherwise they get the time machine
+book = (age < 10) ? "green eggs and ham" : "the time machine";
+console.log(book);
