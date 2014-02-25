@@ -1,13 +1,11 @@
-//functions- basic structure
+//functions-  anonymous functions
 
-function outptMsg(){
-	console.log("hello world");
-}
 
-function calcArea() {
-	var width = 20;
-	var height = 30;
+
+var calcArea = function (width, height){//defining
 	var area = width * height;
-	console.log(area);
+	return area;
 }
-calcArea();
+
+var a = calcArea(20, 30); //invoking
+console.log(a);
