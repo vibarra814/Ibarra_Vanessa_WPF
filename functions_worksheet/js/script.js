@@ -2,9 +2,9 @@
 
 circumfrence(3.14, 4);
 
-function circumfrence(pie, radius){
-     var result = 2 * pie * radius;
+function circumfrence(p, r){
+     var result = 2 * p * r;
     console.log("The circumfrence of the circle is " + result + " inches.");
 }
 
-circumfrence();
+
