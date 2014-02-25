@@ -7,4 +7,4 @@ function stingstoKill(vicWieght, stingsPerlb){
     var stings = vicWieght * stingsPerlb;
 	return stings;
 }
-console.log("It takes " + total + " stings to kill an animal that wieghs " + vicWieght +" pounds.")
+console.log("It takes " + total + " stings to kill an animal that wieghs " + vicWieght +" pounds.");
