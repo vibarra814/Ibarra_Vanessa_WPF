@@ -7,4 +7,4 @@ function stingstoKill(vicWeight, stingsPerlb){ //created function to figure how 
     var stings = vicWeight * stingsPerlb;// actual equation to figure how many stings it takes
 	return stings; //instructed function to return  to total
 }
-console.log("It takes " + total + " stings to kill this animal");
+console.log("It takes " + total + " stings to kill this animal");// created message with toal to print to console
