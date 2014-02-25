@@ -1,9 +1,9 @@
 //Vanessa Ibarra 2/24/2014 functions worksheet
+circumfrence(3.14, 4);
 
-function circumfrence() {
-	var radius = 4 ;
-    var result = 2 * 3.14 * radius;
-    console.log(result)
+function circumfrence(pie, radius){
+     var result = 2 * pie * radius;
+    console.log(result);
 }
 
 circumfrence();
