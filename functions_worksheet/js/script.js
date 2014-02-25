@@ -1,6 +1,6 @@
 //Vanessa Ibarra 2/24/2014 functions worksheet
 
-circumfrence(3.14, 4);
+circumfrence(3.14, 8);
 
 function circumfrence(p, r){
      var result = 2 * p * r;
