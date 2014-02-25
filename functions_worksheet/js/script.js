@@ -2,9 +2,9 @@
 
 var total = stingstoKill(100, 8.666666667);
 
-function stingstoKill(vicWieght, stingsPerlb){
+function stingstoKill(vicWeight, stingsPerlb){
 	
-    var stings = vicWieght * stingsPerlb;
+    var stings = vicWeight * stingsPerlb;
 	return stings;
 }
-console.log("It takes " + total + " stings to kill an animal that wieghs " + vicWieght +" pounds.");
+console.log("It takes " + total + " stings to kill an animal that weighs " + vicWeight +" pounds.");
