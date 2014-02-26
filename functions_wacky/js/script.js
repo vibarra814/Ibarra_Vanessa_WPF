@@ -3,11 +3,19 @@
 var cowWeight = prompt("please enter the weight of your cow") 
 var lactation = Prompt("Is your cow lactating? please answer yes or no")
 
-var feedWeight = function(cowWeight, lactation){
-	var feed = cowWeight * 0.25;
-      return total;
+var feed = function(cowWeight, lactation){
+	var total = cowWeight * 0.25;
+      return feed;
 }
-var total = feedWeight(cowWeight, lactation)
+
+var milk = function(cowWeight, lactation){
+	var total2 = cowWeight * 0.50;
+	return milk
+}
+
+var total = feed(cowWeight, lactation);
+
+var total2 = milk(cowWeight, lactation);
 
 if(lactation === no){
 	console.log("your cow needs " + total + " pounds of feed a day");
