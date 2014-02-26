@@ -3,22 +3,22 @@
 var borderWidth = prompt("please enter your websites desired border width in pixels");
 var featureWidth = prompt("please enter your websites desired feature box width in pixels");
 var videoWidth = prompt("please enter your websites desired video width in pixels");
-var width = pixelWidth(borderWidth, FeatureWidth, videoWidth);
+var widthTotal = pixelWidth(borderWidth, featureWidth, videoWidth);
 
  function pixelWidth(borderWidth, featureWidth, videoWidth){
- 	var pixelWidth = borderWidth + featureWidth + videoWidth;
- 	return width;
+ 	var pixelWidth = Number(borderWidth) + Number(featureWidth) + Number(videoWidth);
+ 	return pixelWidth;
  };
-console.log("your websites total pixel width will be " + width);
+alert("your websites total pixel width will be " + widthTotal);
 
 var borderHeight = prompt("please enter your websites desired border height in pixels");
 var featureHeight = prompt("please eneter your websites desired feature box height in pixels");
 var videoHeight = prompt("please enter your websites desired video height in pixels");
-var height = pixelHeight(borderHeight, geatureHeight, videoHeight);
+var heightTotal = pixelHeight(borderHeight, featureHeight, videoHeight);
 
-function pixelHeight(borderHeight, geatureHeight, videoHeight){
-	varpixelHeight = borderHeight = featureHeight + videoHeight;
-	return height
+function pixelHeight(borderHeight, featureHeight, videoHeight){
+	var pixelHeight = Number(borderHeight) + Number(featureHeight) + Number(videoHeight);
+	return pixelHeight
 }
-console.log("your websites total pixel height will be " + height);
-}
+alert("your websites total pixel height will be " + heightTotal);
+
