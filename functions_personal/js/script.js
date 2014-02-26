@@ -9,21 +9,20 @@ var weight = prompt("please enter you height in inches");
  
 
 function bmi (height, weight){
-	var bmiHeight = height * height ;
-	var total = weight / bmiHeight * 703;
-	return total;
+	var bmi = weight / height * height *703;
+	return bmi;
 	}
 
 
 console.log("your body mass index is " + result);
 
-  if(total < 18){
+  if(result < 18){
   	console.log("you are considered underweight.");
   }
-  if(total === 19 ||total === 20 ||total ===21 ||total === 22 ||total === 23 ||total === 24){
+  if(result === 19 || result === 20 || result===21 || result=== 22 || result === 23 || result === 24){
   	console.log("you are considerd healthy.");
   }
-  if(total === 25 || toalt === 26 || total === 27 || total ===28 || toal === 29){
+  if(result === 25 || result === 26 || result === 27 || result ===28 || result === 29){
   	console.log("you are considered overweight.");
   }
   else{
