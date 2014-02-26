@@ -1,19 +1,21 @@
 //Vanessa Ibarra 2/25/2014 functions personal
 
 //i want to calculate  my BMI
+var result = bmi(height, weight);
 
 var height = prompt("please enter your weight in pounds");
 
 var weight = prompt("please enter you height in inches");
+ 
 
-function bmi (weight, height){
+function bmi (height, weight){
 	var bmiHeight = height * height ;
 	var total = weight / bmiHeight * 703;
-	return height, weight;
+	return total;
 	}
 
 
-console.log("your body mass index is " + total);
+console.log("your body mass index is " + result);
 
   if(total < 18){
   	console.log("you are considered underweight.");
