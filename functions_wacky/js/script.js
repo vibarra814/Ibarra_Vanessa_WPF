@@ -1,7 +1,7 @@
 //Vanessa Ibarra 2/25/2014 functions wacky
 
-var cowWeight = prompt("please enter the weight of your cow in pounds") 
-var lactation = prompt("Is your cow lactating? please answer yes or no")
+var cowWeight = prompt("I am calculating how many pounds of feed a cow need a day.\nplease enter the weight of your cow in pounds");
+var lactation = prompt("Is your cow lactating? \n please answer yes or no");
 
 var feed = function(cowWeight, lactation){
 	var total = cowWeight * 0.25;
