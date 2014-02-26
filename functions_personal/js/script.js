@@ -14,13 +14,13 @@ function bmi (weight, height){
   if(total < 18){
   	console.log("you are considered underweight.");
   }
-  if(total = 19 || total = 20 || total = 21 || total = 22 || total = 23 || total = 24){
+  if(total = 19 ||total = 20 ||total = 21 ||total = 22 ||total = 23 ||total = 24){
   	console.log("you are considerd healthy.");
   }
   if(total = 25 || toalt = 26 || total = 27 || total = 28 || toal = 29){
   	console.log("you are considered overweight.");
   }
-  if(total >= 30){
+  else{
   	console.log("you are considered obese");
   }
 
