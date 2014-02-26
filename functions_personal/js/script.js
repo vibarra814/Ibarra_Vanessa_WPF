@@ -1,15 +1,16 @@
 //Vanessa Ibarra 2/25/2014 functions personal
 
 //i want to calculate  my BMI
-var result = bmi(height, weight);
 
 var height = prompt("please enter your weight in pounds");
 
 var weight = prompt("please enter you height in inches");
  
+var result = bmi(height, weight);
 
 function bmi (height, weight){
-	var bmi = weight / height * height *703;
+	var heightTotal = height * height
+	var bmi = ( weight / heightTotal ) * 703;
 	return bmi;
 	}
 
@@ -25,7 +26,7 @@ console.log("your body mass index is " + result);
   if(result === 25 || result === 26 || result === 27 || result ===28 || result === 29){
   	console.log("you are considered overweight.");
   }
-  else{
+  if(result > 30){
   	console.log("you are considered obese");
   }
 
