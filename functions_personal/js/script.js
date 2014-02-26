@@ -1,9 +1,9 @@
 //Vanessa Ibarra 2/25/2014 functions personal
 
 //i want to calculate  my BMI
-prompt("please enter your weight in pounds");
+var Height = prompt("please enter your weight in pounds");
 
-prompt("please enter you height in inches");
+var weight = prompt("please enter you height in inches");
 
 function bmi (weight, height){
 	var bmiHeight = height * height ;
