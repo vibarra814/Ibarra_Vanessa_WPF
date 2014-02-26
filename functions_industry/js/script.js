@@ -8,8 +8,8 @@ var widthTotal = pixelWidth(borderWidth, featureWidth, videoWidth);
  function pixelWidth(borderWidth, featureWidth, videoWidth){
  	var pixelWidth = Number(borderWidth) + Number(featureWidth) + Number(videoWidth);
  	return pixelWidth;
- };
-alert("your websites total pixel width will be " + widthTotal);
+ }
+(widthTotal < 1000) ? alert("your websites total pixel width will be " + widthTotal) : alert("your pixels exceed limit");
 
 var borderHeight = prompt("please enter your websites desired border height in pixels");
 var featureHeight = prompt("please eneter your websites desired feature box height in pixels");
@@ -20,5 +20,5 @@ function pixelHeight(borderHeight, featureHeight, videoHeight){
 	var pixelHeight = Number(borderHeight) + Number(featureHeight) + Number(videoHeight);
 	return pixelHeight
 }
-alert("your websites total pixel height will be " + heightTotal);
+(heightTotal < 2000) ? alert("your websites total pixel height will be " + heightTotal) : alert("your pixel height exceeds the limit");
 
